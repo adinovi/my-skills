@@ -5,13 +5,17 @@
       "id": 1,
       "prompt": "Sincronizza la nota 'ISEA Guidelines/Guideline - Autoscaling.md' con Confluence in modalità bidirezionale.",
       "expected_output": "The agent should verify connectivity, check the note's frontmatter, detect any changes, and perform the appropriate sync action (push or pull).",
-      "files": ["ISEA Guidelines/Guideline - Autoscaling.md"]
+      "files": [
+        "ISEA Guidelines/Guideline - Autoscaling.md"
+      ]
     },
     {
       "id": 2,
       "prompt": "Esegui un @push della nota 'ISEA Guidelines/Guideline - Oracle Database.md' su Confluence.",
       "expected_output": "The agent should overwrite the Confluence page with the local content and update the frontmatter.",
-      "files": ["ISEA Guidelines/Guideline - Oracle Database.md"]
+      "files": [
+        "ISEA Guidelines/Guideline - Oracle Database.md"
+      ]
     },
     {
       "id": 3,

@@ -1,6 +1,6 @@
 ---
 name: sync-confluence-local
-description: Bidirectional synchronization between local Markdown files (Local or generic folder) and Confluence pages. Supports two modes: "Local" (via MCP) and "Generic Folder" (via local filesystem tools). Trigger it with natural language or shortcuts like @push, @pull, and @sync. MANDATORY: Perform the Initialization workflow at startup to select mode and verify connectivity.
+description: "Bidirectional synchronization between local Markdown files (Local or generic folder) and Confluence pages. Supports two modes: 'Local' (via MCP) and 'Generic Folder' (via local filesystem tools). Trigger it with natural language or shortcuts like @push, @pull, and @sync. MANDATORY: Perform the Initialization workflow at startup to select mode and verify connectivity."
 ---
 
 # Sync Confluence & Local Markdown

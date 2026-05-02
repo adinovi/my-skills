@@ -19,8 +19,8 @@
     },
     {
       "id": 3,
-      "prompt": "Configura la skill in modalità 'Generic Folder' puntando alla cartella '/tmp/notes' e sincronizza 'test.md'.",
-      "expected_output": "The agent should switch to Generic mode, verify the path, and attempt to sync using filesystem tools instead of Obsidian MCP.",
+      "prompt": "Configura la skill in modalità 'Locale' puntando alla cartella '/tmp/notes' e sincronizza 'test.md'.",
+      "expected_output": "The agent should switch to Locale mode, verify the path, and attempt to sync using filesystem tools instead of Obsidian MCP.",
       "files": []
     }
   ]

@@ -1,9 +1,9 @@
 # Local-Confluence Synchronization Skill
 
-A powerful agentic skill for bidirectional content synchronization between a Local vault and Confluence.
+A powerful agentic skill for bidirectional content synchronization between local Markdown files and Confluence.
 
 ## Features
-- **Multi-Mode Support**: Choose between **Local** (via MCP) or a **Generic Folder** (direct filesystem access).
+- **Multi-Mode Support**: Choose between **Obsidian** (via MCP) or a **Locale** folder (direct filesystem access).
 - **Bidirectional Sync**: Keeps local files and remote pages in sync.
 - **Agent Shortcuts**: Quick commands like `@push`, `@pull`, and `@sync`.
 - **Natural Language Support**: Ask to "sync this note" or "update from confluence".
@@ -14,8 +14,8 @@ A powerful agentic skill for bidirectional content synchronization between a Loc
 
 1.  Clone this repository into your agent's skills directory (e.g., `.agents/skills/`).
 2.  Ensure you have the following configured:
-    - **Local Mode**: Requires the `mcp-obsidian` server.
-    - **Generic Mode**: Requires direct access to a local folder path.
+    - **Obsidian Mode**: Requires the `mcp-obsidian` server.
+    - **Locale Mode**: Requires direct access to a local folder path.
     - **Confluence**: Requires the `atlassian` MCP server.
 
 ## Usage
